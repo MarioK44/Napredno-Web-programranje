@@ -1,0 +1,229 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.naslov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.glavni-naslov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.paragraph-o-nama-dim{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+    position:fixed;
+    margin-bottom: 0px;
+    bottom: 0px;
+}
+.copyright-b{
+    margin-top: 50px;
+}
+.paragraph1{
+    width: 600px;
+    text-align: justify;
+}
+.slika2{
+    width: 100%;
+}
+
+.paragraph-o-nama{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.podnaslov{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.o-nama-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+.o-nama{
+    display: flex;
+    border-width: 1px;
+    border-style: none;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link{
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    column-gap: 40px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+.linkovi{
+    color:white;
+}
+.linkovi:link{
+    text-decoration: none;
+}
+.linkovi:visited {
+    color: white;
+  }
+  
+.linkovi:hover {
+    color: cyan;
+  }
+  
+.linkovi:active {
+    color: rgb(73, 73, 226);
+}
+
+
+.o-nama-naslov{
+    text-align: center;
+}
+body{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.index-naslov{
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.naslov-padel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-text{
+    width: 600px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.index-slika{
+    width: 100%;
+    margin-top: 40px;
+}
+.index-slika-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: justify;
+}
+.slika1{
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
+}
+.slika0{
+    width: 80px;
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.index-benefiti1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.index-benefiti-div{
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slika5{
+    height: 70px;
+    object-fit: contain;
+    object-position: center;
+    padding-right: 15px;
+}
+.nema-registracije:link{
+    text-decoration: none;
+}
+.nema-registracije{
+    color:black;
+}
+
+.nema-registracije:hover {
+    color: cyan;
+  }
+  
+.nema-registracije:active {
+    color: rgb(73, 73, 226);
+}
+
+.velicna-upita{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+}
+
+.prijava-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.prijava-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+} 
+
+form{
+    max-width: 380px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 8px;
+    margin: 9px 0;
+}
